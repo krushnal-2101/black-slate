@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Nunito', sans-serif;
+    color:#00376e;
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.flud{
+    max-width: 1320px;
+    height:80px ;
+    font-size: 23px;
+   width: 100%;
+  padding-top: 18px;
+   margin: auto;
+   padding-left: 80PX;
+ 
+}
+.container11{
+    max-width: 1320px;
+    margin: auto;
+   
+    padding: 5px;
+}
+.cart{
+    width: 100%;
+   /* padding-bottom: 15px;
+   padding-top: 80px;
+   padding-left: 80px; */
+   padding: 80px 80px 15px 80px;
+ 
+}
+.cart p{
+    color: #5981A9;
+}
+.cart1{
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+    padding-bottom: 15px;
+}
+.p1{
+    padding-left: 570px;
+}
+.p2{
+    padding-left: 220px;
+}

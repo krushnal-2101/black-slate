@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+   
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.section{
+    background-color: #F4FAFA;
+    width: 100%;
+}.container{
+  
+    padding: 15px;
+   margin: auto;
+   max-width: 1320px;
+   display:flex;
+   justify-content: space-between;
+   font-family: 'Noto Sans', sans-serif;
+}
+
+.text{
+    font-size: 25px;
+}
+.flud2 {
+  
+  width: auto;
+  display: flex;
+  column-gap: 50px;
+  padding: 5px;
+  font-size: 17px;
+
+  
+}
+.flud2 a{
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.shop{
+    background-color:#4CB5AB;;
+}
+
+.flud2 a:hover{ 
+    background-color:#4CB5AB;
+    padding: 5px;
+}
+.container2{
+    max-width: 1320px;
+    margin: auto;
+   
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.p1{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+    color: #00376E;
+}
+
+.p2{
+    font-family: 'Noto Sans', sans-serif;
+   color:  #5981A9;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.container7{
+    max-width: 1320px;
+    margin: auto;
+    border: 1px solid #00376e;
+    
+}
+.policy{
+
+   margin-top: 100px;
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+    padding-bottom: 25px;
+}
+.footlink{
+
+width: 25%;
+padding: 10px;
+text-decoration: none;
+}
+
+.footlink a{
+    text-decoration: none;
+    color: #4CB5AB;
+    line-height: 1.6;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.308);
+    text-align: center;
+    padding:20px;
+
+    
+
+
+
+}
+    
+.container-fluid{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+   padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.new-part-1{
+    
+    background-color: #00376E;;
+}
+.part-1-padding{
+  
+   padding-left: 20px;
+}
+
+.select{
+    margin: auto;
+    max-width: 1320px;
+   text-align: end;
+   padding-right: 80px;
+   padding-top: 40px;
+   display: flex;
+   justify-content: end;
+ 
+}
+select{
+  
+    padding: 12px 20px 12px 20px;
+}
+
+.footlink a:hover{
+    color:#427bb4cc; ;
+}

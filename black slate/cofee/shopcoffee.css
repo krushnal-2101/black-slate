@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Nunito', sans-serif;
+    color:#00376e;
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.section{
+    background-color: #F4FAFA;
+    width: 100%;
+}.container{
+  
+    padding: 15px;
+   margin: auto;
+   max-width: 1320px;
+   display:flex;
+   justify-content: space-between;
+}
+
+.text{
+    font-size: 25px;
+}
+.flud2 {
+  
+  width: auto;
+  display: flex;
+  column-gap: 50px;
+  padding: 5px;
+  font-size: 17px;
+
+  
+}
+.flud2 a{
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.shop{
+    background-color:#4CB5AB;;
+}
+
+.flud2 a:hover{ 
+    background-color:#4CB5AB;
+    padding: 5px;
+}
+
+.container2{
+    display: flex;
+    
+    max-width: 1320px;  
+    margin: auto;
+    width: 100%;
+
+}
+.part1{
+    
+    width: 45%;
+    background-color: #00376E;;
+    margin-top: 50px;
+    margin-right: 20px;
+    
+}
+.part2{
+   
+    width: 50%;
+    margin-top: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p1{
+ font-size: 30px;
+ color: white;
+ justify-content: center;
+ padding-top: 64px;
+ padding-left: 45px;
+}
+.p2{
+    font-size: 17px;
+    color: white;
+   justify-content: center;
+   padding-bottom: 50px;
+   padding-left: 40px;
+   padding-right: 50px;
+   line-height: 30px;
+}
+.All{
+    padding-top: 80px;
+    font-size: 35px;
+}
+
+
+.features{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.features > div{
+    width: 33.33%;
+    padding: 20px;
+}
+.featurescard{
+    border: 1px solid red;
+height: 100%;
+
+}   
+
+
+.card-img{
+   
+    position: relative;
+}
+
+.card-img img{
+    width: 100%;
+}
+
+.card-data {
+   
+    text-align: center;
+}
+
+.card-data p{
+    font-size: 20px;
+    line-height: 50px;
+}
+.card-data span{
+    font-size: 24x;
+}
+
+.container-fluid{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+   padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.new-part-1{
+    
+    background-color: #00376E;;
+}
+
+    .part-1-padding{
+  
+        padding-left: 20px;
+     }
+
+.img-hover{
+  
+    position: absolute;
+    left:50%; 
+    top:50%;
+    transform: translate(-50%, -50%);
+    width:80%;
+    height: 80%;
+    background-color: #5ebcb3a8;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px
+}
+
+.card-data p:hover{
+  color: #4CB5AB;
+}
+
+.card-img:hover .img-hover{
+    display: flex;
+}
+
+
+.img-hover button{
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid white;
+    color:white;
+ 
+}
+
+.img-hover p{
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    width: 70px;
+    color:white;
+    text-align: center  ;
+
+}
+.ri-search-line{
+    color: white;
+}
+
+.img-hover button:hover{
+    background-color: white;
+   
+    color:#4CB5AB;
+}
+.bottom p{
+    color:"white"
+}
+
+.container7{
+    max-width: 1320px;
+    margin: auto;
+    border: 1px solid #00376e;
+    
+}
+.policy{
+
+   margin-top: 100px;
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+    padding-bottom: 25px;
+}
+.footlink{
+
+width: 25%;
+padding: 10px;
+text-decoration: none;
+}
+
+.footlink a{
+    text-decoration: none;
+    color: #4CB5AB;
+    line-height: 1.6;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.308);
+    text-align: center;
+    padding:20px;
+}
+
+.container-fluid{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+   padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.new-part-1{
+    
+    background-color: #00376E;;
+}
+.part-1-padding{
+  
+   padding-left: 20px;
+}
+
+.select{
+  
+   
+    margin: auto;
+    max-width: 1320px;
+   text-align: end;
+   padding-right: 80px;
+   padding-top: 40px;
+   display: flex;
+   justify-content: end;
+ 
+}
+select{
+  
+    padding: 12px 20px 12px 20px;
+}
+
+.footlink a:hover{
+    color:#427bb4cc; ;
+}
