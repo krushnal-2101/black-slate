@@ -163,7 +163,18 @@ height: 100%;
     flex-direction: column;
     gap:50px
 }
-
+.rating{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    gap: 5px;
+}
+.ri-star-s-fill{
+    color: goldenrod;
+}
+.gray{
+    color: gray;
+}
 .card-data p:hover{
   color: #4CB5AB;
 }
